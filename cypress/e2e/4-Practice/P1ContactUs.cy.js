@@ -1,6 +1,11 @@
 /// <reference types="cypress" />
 
-describe("verify the contact us form", function () {
+describe("Verify the ContactUs form", function () {
+
+    it.only('Verify the heading for ContactUs form',function(){
+        cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
+        cy.get('h2[name=contactme]').should('be.visible').and('have.text','CONTACT US')
+    })
 
     it("verify contact us form with valid data", function () {
         // arrangement
