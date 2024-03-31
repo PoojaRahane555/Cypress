@@ -1,6 +1,6 @@
 /// <reference types="cypress"/>
 
-describe('',function(){
+describe('Verify Cypress basic commands',function(){
 
     it('Verify the title of the page',function(){
         cy.visit('https://webdriveruniversity.com/')
