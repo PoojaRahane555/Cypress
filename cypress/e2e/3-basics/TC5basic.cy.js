@@ -28,4 +28,10 @@ describe('Verify Cypress basic commands',function(){
         cy.wait(3000)
         cy.log('after 3 sec.')
     })
+
+    it.only('How to get elements in cypress',function(){
+        cy.visit('https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html')
+        cy.get('label').should('be.visible')
+        cy.get('label').contains('Option 1').should('be.visible')
+    })
 })
