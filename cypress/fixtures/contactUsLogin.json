@@ -1,0 +1,14 @@
+[
+    {
+        "firstName" : "Sayli",
+        "lastName": "Shinde",
+        "email" : "saylishine5665@gmail.com",
+        "message" : "I am from fixture file"
+    },
+    {
+        "firstName" : "Soham",
+        "lastName"  : "Madhawai",
+        "email"     : "sohammadhawai123@gmail.com",
+        "message"   : "I am from fixture file"
+    }
+]
