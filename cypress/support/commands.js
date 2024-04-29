@@ -20,6 +20,11 @@ Cypress.Commands.add('LoginForm',(fn,ln,eml,comt)=>{
     cy.get('input[name="email"]').type(eml)
     cy.get('textarea[name="message"]').type(comt)
 })
+
+Cypress.Commands.add('getIframeBody',(id) =>{
+    return cy.get(`#${id}`)
+    .its('0.contentDocument.body').should('not.be.empty').then(cy.wrap)
+})
 //
 //
 // -- This is a child command --
