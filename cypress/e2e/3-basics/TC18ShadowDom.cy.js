@@ -31,6 +31,4 @@ describe('Verify the ShadowDom element', function () {
         cy.get('#pizza' ,{includeShadowDom:true}).type("hello").should('be.visible')
         cy.wait(5000)
     })
-
-
 })
