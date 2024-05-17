@@ -1,0 +1,13 @@
+{
+    "post": {
+        "name": "Pooja Rahane",
+        "gender": "Female",
+        "email": " ",
+        "status": "active"
+    },
+    "put": {
+        "name": "Pooja Lokhande",
+        "email": " ",
+        "status": "active"
+    }
+}

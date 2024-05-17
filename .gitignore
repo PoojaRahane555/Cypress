@@ -1,1 +1,6 @@
 node_modules
+cypress/e2e/6-API-Intercept/API7bookUiLessLogin.cy.js
+cypress/e2e/6-API-Intercept/API7bookUiLessLogin2.cy.js
+cypress/fixtures/bookUiLessL2.json
+cypress/e2e/4-Practice/P5bookcart.cy.js
+

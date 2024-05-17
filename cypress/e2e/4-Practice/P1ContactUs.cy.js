@@ -2,12 +2,12 @@
 
 describe("Verify the ContactUs form", function () {
 
-    it.only('Verify the heading for ContactUs form',function(){
+    it('Verify the heading for ContactUs form',function(){
         cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
         cy.get('h2[name=contactme]').should('be.visible').and('have.text','CONTACT US')
     })
 
-    it("verify contact us form with valid data", function () {
+    it.only("verify contact us form with valid data", function () {
         // arrangement
         cy.visit('https://www.webdriveruniversity.com/Contact-Us/contactus.html')
         // action
